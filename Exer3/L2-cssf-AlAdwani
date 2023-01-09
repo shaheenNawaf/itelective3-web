@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>AlAdwani-Tailwind-Exer3</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="flex h-screen w-screen items-center justify-center bg-[#28223f]">
+            <div class="max-w-sm rounded-md overflow-hidden shadow-xl bg-[#231e39]"> <!-- Main Card-->
+                <div class="px-5 pb-5 pt-4">
+                    <div class="rounded-sm ml-4 mt-4"> 
+                        <span class="bg-[#febb0b] font-medium px-2 pb-1 pt-1  rounded-md text-base text-[#231e39]"> PRO </span>
+                    </div>
+                    <div class="rounded-full border border-[#03bfcb] items-center w-40 ml-16 p-3">
+                        <img class="rounded-full" src="sha.jpg">
+                    </div>
+                    <div class="pt-3 font-regular text-2xl text-center text-gray-300">Shaheen Al Adwani</div>
+                    <div class="py-2 font-medium text-xs text-center text-gray-300">DAVAO CITY</div>
+                    <p class="text-sm text-center text-gray-300">
+                    User interface designer and <br> front-end developer
+                  </p>
+                </div>
+                <div class="px-12 pb-6">
+                    <button class="px-6 py-2 inline-block rounded-sm font-regular bg-[#03bfcb] hover:bg-[#231e39] hover:ring-[#03bfcb] hover:ring-1 hover:text-[#03bfcb]">Message</button>
+                    <button class="px-6 py-2 inline-block rounded-sm font-regular bg-[#03bfcb] hover:bg-[#231e39] hover:ring-[#03bfcb] hover:ring-1 hover:text-[#03bfcb] hover:border-collapse">Following</button>
+                </div>
+                <div class="px-2 pt-5 pb-8 bg-[#1f1a36]">
+                    <div class="pb-2">
+                        <label class="px-1 pb-4 font-semibold text-xs text-[#aaabc0]">SKILLS</label>
+                    </div>
+                    <div class="flex flex-wrap">
+                        <span class="ml-2 px-2 pb-1 pt-1 border-white border-solid border font-light text-[#aaabc0] text-sm border-opacity-20"> UI/UX </span>
+                        <span class="ml-2 px-2 pb-1 pt-1 border-white border-solid border font-light text-[#aaabc0] text-sm border-opacity-20"> Front End Development</span>
+                        <span class="ml-2 px-2 pb-1 pt-1 border-white border-solid border font-light text-[#aaabc0] text-sm  border-opacity-20"> HTML</span>
+                    </div>
+                    <div class=" pt-2 flex flex-wrap">
+                        <span class="ml-2 px-2 pb-1 pt-1 border-white border-solid border font-light text-[#aaabc0] text-sm  border-opacity-20"> CSS </span>
+                        <span class="ml-2 px-2 pb-1 pt-1 border-white border-solid border font-light text-[#aaabc0] text-sm border-opacity-20"> JavaScript </span>
+                        <span class="ml-2 px-2 pb-1 pt-1 border-white border-solid border font-light text-[#aaabc0] text-sm  border-opacity-20"> React </span>
+                        <span class="ml-2 px-2 pb-1 pt-1 border-white border-solid border font-light text-[#aaabc0] text-sm  border-opacity-20"> Node </span>
+                    </div>
+                  </div>
+              </div>
+        </div>        
+    </body>
+</html>
